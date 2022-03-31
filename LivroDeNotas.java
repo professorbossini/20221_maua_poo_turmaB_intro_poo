@@ -1,10 +1,11 @@
 //alta coesão
 public class LivroDeNotas{
 
-    public static void exibirMensagem(String nomeDaDisciplina){
+    //variável de instância
+    //instância é sinônimo de objeto
+    String nomeDaDisciplina;
+
+    public void exibirMensagem(){
         System.out.println("Bem vindo ao livro de notas da disciplina" + nomeDaDisciplina);
     }
-    
-
-
 }
